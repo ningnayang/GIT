@@ -4,7 +4,7 @@ $username = trim(htmlentities($_GET['username']));
 $token = $_GET['token'];
 $from = $_GET['from'];
 $operate = $_GET['operate'];
-
+echo 1;
 // 同时登陆、注销的站点 跨域的网站
 $web_sites = array('www.site1.com', 'www.site2.com','www.sso.com');
 
